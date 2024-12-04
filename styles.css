@@ -1,0 +1,102 @@
+*{
+  margin: 0;padding: 0;
+  /* font-family: 'Poppins'; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.headCon{
+  width: 100%;
+  height: 55px;
+  background-color: #131921;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.headLogo img{
+  width: 40px;
+  padding-left: 100px;
+}
+
+.search{
+  padding-right: 100px;
+}
+
+.search input {
+  height: 23px;
+  border-radius: 5px;
+  padding-left: 15px;
+  width: 250px;
+}
+.search button{
+  background-color: #F0A646;
+  height: 25px;
+  width: 60px;
+  border: 1px solid  #F0A646;
+  border-radius: 5px;
+}
+
+.search button:hover{
+  background-color: #ff9102;
+}
+
+.hero{
+  width: 100%;
+  height: 380px;
+  background-color: #E7DFC8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-image: url("./"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#nameDiv{
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #ff9102c1;
+}
+.heroImg{
+  width: 35%;
+  height: 60%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.data {
+  width: 55%;
+  height: 90%;
+  /* border: 1px solid black; */
+  padding-left: 20px;
+  padding-top: 10px;
+  display: flex;
+  color: rgb(36, 36, 41);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.footer{
+  width: 100%;
+  height: 50px;
+  background-color: #232F3E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: beige;
+}
+
+#year{
+  font-size: 15px;
+}
+
+#movieImg{
+  width: 50%;
+  height: 100%;
+  border: 5px solid #ff9102c1;
+  border-radius: 5px;
+  padding: 5px;
+}
+
